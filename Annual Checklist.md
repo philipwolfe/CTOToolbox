@@ -11,6 +11,10 @@ Start the year off right by sending valid email and cleaning our old DNS records
 
 # Feburary is Website month
 
+# March is Network month
+- Review firewall policies
+  - Inbound rules - are they up to date and documented well?  Are their countries to geo-block/allow?
+
 # October is Security month
 
 # November is Budgeting month
