@@ -15,6 +15,13 @@ Start the year off right by sending valid email and cleaning our old DNS records
 - Review firewall policies
   - Inbound rules - are they up to date and documented well?  Are their countries to geo-block/allow?
 
+# April is Policy month
+- Policies to review:
+  - Business continuity
+  - Cybersecurity
+  - Bring Your Own Device (BYOD)
+  - Work from home
+  - 
 # October is Security month
 
 # November is Budgeting month
