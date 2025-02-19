@@ -1,5 +1,5 @@
-# January is DNS month
-Start the year off right by sending valid email and cleaning our old DNS records.
+# January is Registrar/DNS month
+Start the year off right by sending valid email and cleaning out old DNS records.
 - Validate DMARC Information
   - Use [Learn and Test DMARC](https://www.learndmarc.com/) as a quick check.
   - Use [SPF Record Checker and Lookup](https://easydmarc.com/tools/spf-lookup) to view SPF errors.
@@ -8,6 +8,10 @@ Start the year off right by sending valid email and cleaning our old DNS records
   - Check your SPF TXT record at your Domain Registrar to cull any hosts that don't send email on your behalf.
 - Cull old DNS TXT entries
   - Some service providers perform one-time domain ownership validations.  Check the domain validation documentation for these companies to see if the record is used for validation periodically.  If it is not used, remove these entries so that your DNS records aren't broadcasting the services that your company uses.  This can be a security risk as attackers can target your known service providers.
+- Validate registrar credentials.  Rotate credentials if applicable.  
+- Set calendar reminders for domains expiring this year.
+- Validate ownership transfer locks.
+- Validate contact information.  Remember that changing registration information may prevent transfers for up to 60 days.
 
 # Feburary is Website month
 
