@@ -24,7 +24,13 @@ Start the year off right by sending valid email and cleaning our old DNS records
   - Cybersecurity
   - Bring Your Own Device (BYOD)
   - Work from home
-  - 
+
+# May is Email month
+- External email indicator
+  - Add an external email indicator to Outlook with [this powershell script](email_external.ps1).  Do not prepend an "external" message to emails because it hides the real message from the preview pane.  Do not append an "external" message to emails because no one reads them.
+- Enable Link Protection
+  - Enabling link protection protects users in Outlook, Office, and Teams.  It is especially good when a link gets classified as malicious and everyone with the malicous link is protected.  Even if the email or document isn't deleted.
+
 # October is Security month
 
 # November is Budgeting month
