@@ -13,7 +13,7 @@ Start the year off right by sending valid email and cleaning our old DNS records
 
 # March is Network month
 - Review firewall policies
-  - Inbound rules - are they up to date and documented well?  Are their countries to geo-block/allow?
+  - Inbound rules - are they up to date and documented well?  Are there countries to geo-block/allow?
 - Test firewall policies
   - Allowed tests: Use an IP address that should be allowed to access the resource and validate.
   - Denied tests: Use an IP address that should be denied access to the resource and validate.
