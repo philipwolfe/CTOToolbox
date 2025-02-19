@@ -39,6 +39,26 @@ Start the year off right by sending valid email and cleaning out old DNS records
 - External emails to shared mailboxes
   - See above.
 
+# June is Device month
+- Printers/Scanners/MFDs
+  - Inventory.
+  - Updates: software, driver, firmware
+  - Network Time Protocol settings.
+- Desk Phones
+  - Inventory.
+  - Updates: firmware
+- Network (switches/hubs/routers/APs)
+  - Inventory.
+  - Review: licenses, waranties, service contracts
+  - Updates: (probably automatic)
+- Cameras
+- HVAC
+
 # October is Security month
+- Physical security
+- Workstation security
+- Mobile device security
+- Credential management
+- Software development processes
 
 # November is Budgeting month
