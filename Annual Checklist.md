@@ -28,8 +28,12 @@ Start the year off right by sending valid email and cleaning our old DNS records
 # May is Email month
 - External email indicator
   - Add an external email indicator to Outlook with [this powershell script](email_external.ps1).  Do not prepend an "external" message to emails because it hides the real message from the preview pane.  Do not append an "external" message to emails because no one reads them.
-- Enable Link Protection
-  - Enabling link protection protects users in Outlook, Office, and Teams.  It is especially good when a link gets classified as malicious and everyone with the malicous link is protected.  Even if the email or document isn't deleted.
+- Enable Safe Links
+  - Enabling [Safe Links](https://learn.microsoft.com/en-us/defender-office-365/safe-links-policies-configure) protects users in Outlook, Office, and Teams.  It is especially good when a link gets classified as malicious and everyone with the malicous link is protected.  Even if the email or document isn't deleted.
+- External emails to groups
+  - Review all groups and validate if they should be able to receive external email.  I have seen several instances where a disgruntled employee will send a message to 'All Employees' from an anonymous email address.  External emails should not be able to reach everyone on the company.
+- External emails to shared mailboxes
+  - See above.
 
 # October is Security month
 
