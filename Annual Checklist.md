@@ -15,12 +15,18 @@ Start the year off right by sending valid email and cleaning out old DNS records
 
 # Feburary is Website month
 
-# March is Network month
+# March is Communications Infrastructure month
 - Review firewall policies
   - Inbound rules - are they up to date and documented well?  Are there countries to geo-block/allow?
 - Test firewall policies
   - Allowed tests: Use an IP address that should be allowed to access the resource and validate.
   - Denied tests: Use an IP address that should be denied access to the resource and validate.
+- Phone/FAX
+  - Test E911 service by dialing 922 and confirming address and call back number are correct.
+  - Review SIP trunk settings, private keys/client ids
+  - Review PBX settings, users, backups
+- Video Converencing
+  - Review accounts, security, AI settings, SCIM provisioning, etc.
 
 # April is Policy month
 - Policies to review:
