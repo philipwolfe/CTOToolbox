@@ -60,6 +60,15 @@ Start the year off right by sending valid email and cleaning out old DNS records
 - Cameras
 - HVAC
 
+# July is Disaster Recovery month
+- Service Provider/Vendor support numbers
+  - Collect the support numbers of service providers and vendors
+  - Call the number and document how to get to the right support agent
+  - Document the information that they ask for such as account numbers, PINs, etc.
+  - Verify the employees that are authorized *on the vendor's side* to open support requests
+  - Document their support hours
+  - Document their escalation process
+
 # October is Security month
 - Physical security
 - Workstation security
