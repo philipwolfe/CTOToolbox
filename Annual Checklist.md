@@ -44,6 +44,14 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Review all groups and validate if they should be able to receive external email.  I have seen several instances where a disgruntled employee will send a message to 'All Employees' from an anonymous email address.  External emails should not be able to reach everyone on the company.
 - External emails to shared mailboxes
   - See above.
+- Exchange Admin Center Review
+  - Review [Connectors](https://admin.exchange.microsoft.com/#/connectors) - Compare connector settings with documentation.  Disable old connectors.  Delete disabled connectors.
+  - Review [Transport Rules](https://admin.exchange.microsoft.com/#/transportrules) - Review rules that have not been executed recently.  Review rules that process exceptions to ensure messages or mailboxes are protected.
+  - Review [Remote Domains](https://admin.exchange.microsoft.com/#/remotedomains) - Compare configured domains with documentation and update accordingly.
+  - Review [Accepted Domains](https://admin.exchange.microsoft.com/#/accepteddomains) - Same.
+  - Review [MRM Retention Policies](https://purview.microsoft.com/datalifecyclemanagement/exchange/retentionpolicies) - These policies are the only way to move email from the primary mailbox to the archive mailbox.
+  - Review [Mobile Device Access Rules](https://admin.exchange.microsoft.com/#/mobiledeviceaccess) - Review rules.
+  - Review [Mobile Device Mailbox Policies](https://admin.exchange.microsoft.com/#/mobiledevicemailboxpolicy) - Review policies.
 
 # June is Device month
 - Printers/Scanners/MFDs
