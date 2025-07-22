@@ -1,0 +1,11 @@
+https://github.com/IntelliTect/Coalesce
+https://learn.microsoft.com/en-us/purview/enable-archive-mailboxes
+https://learn.microsoft.com/en-us/answers/questions/5199639/how-do-you-do-a-back-up-of-a-user-before-you-delet?forum=msoffice-all&referrer=answers
+https://web.archive.org/web/*/https://gallery.technet.microsoft.com/office/*
+https://www.reddit.com/r/Intune/comments/13xqfiv/uploading_intunewin_file_with_graph_using/
+https://techcommunity.microsoft.com/blog/exchange/native-external-sender-callouts-on-email-in-outlook/2250098
+https://www.inthecloud247.com/manage-google-update-settings-with-microsoft-intune/
+https://learn.microsoft.com/en-us/powershell/module/exchange/set-externalinoutlook?view=exchange-ps
+https://stackoverflow.com/questions/54839744/adding-a-custome-url-for-myapps-microsoft-com
+https://github.com/winfsp/winfsp
+https://github.com/winfsp/sshfs-win
