@@ -77,11 +77,40 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Document their support hours
   - Document their escalation process
 
+# September is Budgeting month
+## Example categories
+| **Cost Center** | **Line Item**                  | **Jan** | **Feb** | **Mar** | **Apr** | **May** | **Jun** | **Jul** | **Aug** | **Sep** | **Oct** | **Nov** | **Dec** | **Total** |
+|-----------------|--------------------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|-----------|
+| **300**         | **Information Technology**     |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| HR              | Compensation                   |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| HR              | Raises                         |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| HR              | Retention                      |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 301             | Recognition                    |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 302             | Recruiting                     |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 303             | Coaching                       |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 304             | Team Activities                |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 305             | Certifications                 |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 306             | Training                       |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 307             | Travel/Lodging/Meals           |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 308             | Subscriptions/Dues/Memberships |         |         |         |         |         |         |         |         |         |         |         |         |           |
+|                 |                                |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| **310**         | **Communications**             |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 311             | ISP 1                          |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 312             | ISP 2                          |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 313             | SIP                            |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 314             | Phone/Fax                      |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 315             | Cellular                       |         |         |         |         |         |         |         |         |         |         |         |         |           |
+|                 |                                |         |         |         |         |         |         |         |         |         |         |         |         |           |
+
+
 # October is Security month
+- Configure alerts
+  - [Microsoft Defender](https://security.microsoft.com/securitysettings/endpoints/email_notifications) - Configure Alerts and Vulnerability notifications by adding recipients.
+- Endpoint Security
+  - Microsoft Intune - Too much to list.  Configure policies for connectivity, operating system, and software.
+  - Microsoft Defender - Too much to list.  Configure policies for users, data, and reporting.
 - Physical security
-- Workstation security
-- Mobile device security
 - Credential management
 - Software development processes
 
-# November is Budgeting month
+
