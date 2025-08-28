@@ -13,7 +13,18 @@ Start the year off right by sending valid email and cleaning out old DNS records
 - Validate ownership transfer locks.
 - Validate contact information.  Remember that changing registration information may prevent transfers for up to 60 days.
 
-# Feburary is Website month
+# Feburary is Internet Presence month
+- Website
+  - Scan sites for HTML validity and ADA accessibility.
+  - Review cookie opt-in and tracking services/policies.
+  - Review how your site appears in the top 5 search engines.
+- Social Media
+  - Review how your company appears in Facebook, X, Instagram, LinkedIn, etc.
+- Company  Information
+  - Review Maps for address/hours/contact info: Google, Apple, Bing
+- Company Review Information
+  - Review Glassdoor
+  - Review Google Business/Yelp
 
 # March is Communications Infrastructure month
 - Review firewall policies
@@ -28,12 +39,14 @@ Start the year off right by sending valid email and cleaning out old DNS records
 - Video Converencing
   - Review accounts, security, AI settings, SCIM provisioning, etc.
 
-# April is Policy month
-- Policies to review:
-  - Business continuity
-  - Cybersecurity
-  - Bring Your Own Device (BYOD)
-  - Work from home
+# April is Annual Review month
+- People want to know if they are hitting the mark.
+- Provide feedback on:
+  - Technical Skills
+  - Professional Skills
+  - Wins from the last period
+  - What is blocking them from achieving more
+  - Opportunities for the next period
 
 # May is Email month
 - External email indicator
@@ -76,6 +89,21 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Verify the employees that are authorized *on the vendor's side* to open support requests
   - Document their support hours
   - Document their escalation process
+ 
+# August is Policy month
+- Policies to review:
+  - Business continuity
+  - Cybersecurity
+  - Bring Your Own Device (BYOD)
+  - Work from home
+  - Accounts
+    - User password policies
+    - 2FA policies
+    - Application account policies
+    - Service account policies (secret rotation, etc.)
+  - SOC
+    - Data Protection (HIPAA, PII, GDPR, PCI, etc.)
+    - Data Retention/Removal
 
 # September is Budgeting month
 ## Example categories
@@ -100,6 +128,14 @@ Start the year off right by sending valid email and cleaning out old DNS records
 | 313             | SIP                            |         |         |         |         |         |         |         |         |         |         |         |         |           |
 | 314             | Phone/Fax                      |         |         |         |         |         |         |         |         |         |         |         |         |           |
 | 315             | Cellular                       |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 316             | Fire Panel                     |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 317             | Elevator                       |         |         |         |         |         |         |         |         |         |         |         |         |           |
+|                 |                                |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| **320**         | **Infrastructure Hardware**    |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 321             | Networking                     |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 322             | Redundant Power                |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 324             | Firewall                       |         |         |         |         |         |         |         |         |         |         |         |         |           |
+| 325             | Servers                        |         |         |         |         |         |         |         |         |         |         |         |         |           |
 |                 |                                |         |         |         |         |         |         |         |         |         |         |         |         |           |
 
 
@@ -113,4 +149,14 @@ Start the year off right by sending valid email and cleaning out old DNS records
 - Credential management
 - Software development processes
 
+# November
+
+# December is Planning month
+- Review everything that was accomplished during the year.
+- Review processes that are being done manually.
+  - Focus on the ones that have multiple steps
+  - Focus on the ones that cause other departments to wait (new user setup, password reset)
+  - Focus on what can be automated
+- Review tech support cases for trends and explore mitigations.
+- Review vendor relationships and sumarize their effectiveness.
 
