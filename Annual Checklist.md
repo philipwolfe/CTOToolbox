@@ -10,6 +10,7 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Some service providers perform one-time domain ownership validations.  Check the domain validation documentation for these companies to see if the record is used for validation periodically.  If it is not used, remove these entries so that your DNS records aren't broadcasting the services that your company uses.  This can be a security risk as attackers can target your known service providers.
 - Validate registrar credentials.  Rotate credentials if applicable.  
 - Set calendar reminders for domains expiring this year.
+- Download the zone information files and commit them to source control.  This helps document changes throughout the year and serves as a backup should something happen to your registrar.
 - Validate ownership transfer locks.
 - Validate contact information.  Remember that changing registration information may prevent transfers for up to 60 days.
 
