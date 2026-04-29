@@ -2,10 +2,14 @@
 Start the year off right by sending valid email and cleaning out old DNS records.
 - Validate DMARC Information
   - Use [Learn and Test DMARC](https://www.learndmarc.com/) as a quick check.
-  - Use [SPF Record Checker and Lookup](https://easydmarc.com/tools/spf-lookup) to view SPF errors.
   - Use [Domain Security Scanner & Analyzer](https://easydmarc.com/tools/domain-scanner) to view DMARC warnings.
   - Review [r/DMARC](https://www.reddit.com/r/DMARC) to keep up on the latest happenings.
+  - Review extra CNAME entries that may be used by DMARC, such as: ._domainkey. entries.
+  - If you are in the process of moving from p=none to p=quarantine to p=reject, continue to increase the pct value until you reach 100% and then set p=reject.
+- Validate SPF information
+  - Use [SPF Record Checker and Lookup](https://easydmarc.com/tools/spf-lookup) to view SPF errors.
   - Check your SPF TXT record at your Domain Registrar to cull any hosts that don't send email on your behalf.
+  - **ADD** SPF records to domains that **DO NOT** send email to prevent abuse of those domains. [Article](https://domainnamewire.com/2019/01/15/create-spf-record-spoof-email/) 
 - Cull old DNS TXT entries
   - Some service providers perform one-time domain ownership validations.  Check the domain validation documentation for these companies to see if the record is used for validation periodically.  If it is not used, remove these entries so that your DNS records aren't broadcasting the services that your company uses.  This can be a security risk as attackers can target your known service providers.
 - Validate registrar credentials.  Rotate credentials if applicable.  
@@ -14,11 +18,12 @@ Start the year off right by sending valid email and cleaning out old DNS records
 - Validate ownership transfer locks.
 - Validate contact information.  Remember that changing registration information may prevent transfers for up to 60 days.
 
-# Feburary is Internet Presence month
+# February is Internet Presence month
 - Website
   - Scan sites for HTML validity and ADA accessibility.
   - Review cookie opt-in and tracking services/policies.
   - Review how your site appears in the top 5 search engines.
+  - Review robots.txt settings.
 - Social Media
   - Review how your company appears in Facebook, X, Instagram, LinkedIn, etc.
 - Company  Information
@@ -37,7 +42,7 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Test E911 service by dialing 922 and confirming address and call back number are correct.
   - Review SIP trunk settings, private keys/client ids
   - Review PBX settings, users, backups
-- Video Converencing
+- Video Conferencing
   - Review accounts, security, AI settings, SCIM provisioning, etc.
 
 # April is Annual Review month
@@ -53,7 +58,7 @@ Start the year off right by sending valid email and cleaning out old DNS records
 - External email indicator
   - Add an external email indicator to Outlook with [this powershell script](email_external.ps1).  Do not prepend an "external" message to emails because it hides the real message from the preview pane.  Do not append an "external" message to emails because no one reads them.
 - Enable Safe Links
-  - Enabling [Safe Links](https://learn.microsoft.com/en-us/defender-office-365/safe-links-policies-configure) protects users in Outlook, Office, and Teams.  It is especially good when a link gets classified as malicious and everyone with the malicous link is protected.  Even if the email or document isn't deleted.
+  - Enabling [Safe Links](https://learn.microsoft.com/en-us/defender-office-365/safe-links-policies-configure) protects users in Outlook, Office, and Teams.  It is especially good when a link gets classified as malicious and everyone with the malicious link is protected.  Even if the email or document isn't deleted.
 - External emails to groups
   - Review all groups and validate if they should be able to receive external email.  I have seen several instances where a disgruntled employee will send a message to 'All Employees' from an anonymous email address.  External emails should not be able to reach everyone on the company.
 - External emails to shared mailboxes
@@ -68,19 +73,25 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Review [Mobile Device Mailbox Policies](https://admin.exchange.microsoft.com/#/mobiledevicemailboxpolicy) - Review policies.
 
 # June is Device month
+- **All Areas**
+  - Inventory: Update master inventory list.  Retire outdated/unsupported devices.
+  - Review: licenses, warranties, service contracts.  Contact vendors to confirm your representatives' information, contract details, and schedules.
+  - Update: firmware, drivers, software
 - Printers/Scanners/MFDs
-  - Inventory.
-  - Updates: software, driver, firmware
+  - Review local device authentication settings
   - Network Time Protocol settings.
 - Desk Phones
-  - Inventory.
-  - Updates: firmware
 - Network (switches/hubs/routers/APs)
-  - Inventory.
-  - Review: licenses, waranties, service contracts
-  - Updates: (probably automatic)
+  - Review configuration backup location and settings
+  - Save current and previous firmware version on-premises in case of emergency
 - Cameras
+  - Clean them.  Wipe off the glass/domes with cleaner and a microfiber cloth.
 - HVAC
+  - Review settings and temperature range.
+  - Review authorized users. [See Target](https://krebsonsecurity.com/2014/02/target-hackers-broke-in-via-hvac-company/)
+  - Check ingress/egress data and set alerts.
+- POS/Credit card terminals
+  - Review vendor security bulletins.
 
 # July is Disaster Recovery month
 - Service Provider/Vendor support numbers
@@ -127,5 +138,5 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Focus on the ones that cause other departments to wait (new user setup, password reset)
   - Focus on what can be automated
 - Review tech support cases for trends and explore mitigations.
-- Review vendor relationships and sumarize their effectiveness.
+- Review vendor relationships and summarize their effectiveness.
 
