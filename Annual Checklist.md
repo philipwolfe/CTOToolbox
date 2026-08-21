@@ -110,15 +110,19 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Work from home
   - Accounts
     - User password policies
+    - Service account password rotation policy
     - 2FA policies
     - Application account policies
     - Service account policies (secret rotation, etc.)
   - SOC
     - Data Protection (HIPAA, PII, GDPR, PCI, etc.)
     - Data Retention/Removal
+  - AI usage policy
+  - AI agent policy
 
 # September is Budgeting month
 - See [Budget](budget.md)
+
 # October is Security month
 - Configure alerts
   - [Microsoft Defender](https://security.microsoft.com/securitysettings/endpoints/email_notifications) - Configure Alerts and Vulnerability notifications by adding recipients.
@@ -127,6 +131,11 @@ Start the year off right by sending valid email and cleaning out old DNS records
   - Microsoft Defender - Too much to list.  Configure policies for users, data, and reporting.
 - Physical security
 - Credential management
+  - Ensure everyone is using the company provided password management solution
+  - Ensure password saving is disabled in browsers
+  - Audit credentials to network devices
+  - Audit credentials to servers
+  - Audit credentials to cloud providers
 - Software development processes
 
 # November
